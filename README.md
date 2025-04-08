@@ -4,12 +4,13 @@ Cursor Rules by AI Labs: https://www.youtube.com/@AILABS-393
 
 This guide will help you set up and use Cline's Memory Bank feature with Cursor IDE. Memory Bank helps AI agents maintain context across multiple sessions through structured documentation, reducing context loss and minimising hallucinations.
 
+
 ## Table of Contents
 - [The Problem]
+- [Setup Instructions]
 - [What is Memory Bank?]
 - [Memory Bank File Structure]
 - [Workflows]
-- [Setup Instructions]
 - [Using Memory Bank with Your Projects]
 - [Troubleshooting]
 
@@ -23,6 +24,26 @@ During long development sessions, AI agents (like those in Cursor or Windsurf) t
 - Potentially generate hallucinations due to context loss
 
 Memory Bank addresses these issues by maintaining structured documentation that persists across sessions.
+
+## Setup Instructions
+
+### Getting the Memory Bank Template
+
+1. In this Github repo and select the cursor-memory-bank.md file.
+2. Click on the "Raw" button to view the file in its raw format
+3. Copy the entire file content
+
+### Adding to Cursor
+
+1. Open Cursor IDE
+2. Navigate to the rules section:
+3. Paste the copied Memory Bank template into the user rules section
+
+### Initialising Memory Bank for a Project
+
+1. Open your project in Cursor
+2. Make sure Cursor Agent mode is enabled
+3. Ask Cursor to initialise the Memory Bank:
 
 ## What is Memory Bank?
 
@@ -85,25 +106,3 @@ In this mode, the agent:
 3. Takes action on the current task
 4. Updates documentation based on what happened
 
-## Setup Instructions
-
-### Getting the Memory Bank Template
-
-1. Go to the raw Memory Bank template markdown file
-2. Click on the "Raw" button to view the file in its raw format
-3. Copy the entire file content
-
-### Adding to Cursor
-
-1. Open Cursor IDE
-2. Navigate to the rules section:
-   - For global rules: Go to the global rules settings
-   - For project-specific rules: Set up project configuration (tutorials available)
-
-3. Paste the copied Memory Bank template into the rules section
-
-### Initialising Memory Bank for a Project
-
-1. Open your project in Cursor
-2. Make sure Cursor Agent mode is enabled
-3. Ask Cursor to initialise the Memory Bank:
