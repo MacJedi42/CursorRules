@@ -5,13 +5,13 @@ Cursor Rules by AI Labs: https://www.youtube.com/@AILABS-393
 This guide will help you set up and use Cline's Memory Bank feature with Cursor IDE. Memory Bank helps AI agents maintain context across multiple sessions through structured documentation, reducing context loss and minimising hallucinations.
 
 ## Table of Contents
-- [The Problem](#the-problem)
-- [What is Memory Bank?](#what-is-memory-bank)
-- [Memory Bank File Structure](#memory-bank-file-structure)
-- [Workflows](#workflows)
-- [Setup Instructions](#setup-instructions)
-- [Using Memory Bank with Your Projects](#using-memory-bank-with-your-projects)
-- [Troubleshooting](#troubleshooting)
+- [The Problem]
+- [What is Memory Bank?]
+- [Memory Bank File Structure]
+- [Workflows]
+- [Setup Instructions]
+- [Using Memory Bank with Your Projects]
+- [Troubleshooting]
 
 ## The Problem
 
